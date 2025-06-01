@@ -1,18 +1,49 @@
-  - id: "1"
-    name: "Marketbag - Large"
+  - slug: "MarketbagLarge"
     coverImage: "./marketbag_large/gallery.jpg"
-  - id: "2"
-    name: "Marketbag - Small"
+    displayName: "Marketbag - Large"
+    description: >
+      The large marketbag is perfect for visiting the farmers market or grocery store, but can be used for much more!<br>
+      Use it for a day on the beach, to carry your books, anything you need.<br><br>
+      Machine wash cold on gentle and tumble dry low or lay flat to dry.<br>
+      Bags are available in a variety of colors and combinations.  I also offer custom dyed options.<br><br>
+      Bag shown below holding 6 apples, 2 bell peppers, 6 cans of soup, and 8 skeins of crochet thread.
+  - slug: "MarketbagSmall"
     coverImage: "./marketbag_small/gallery.jpg"
-  - id: "3"
-    name: "Linen Kitchen Towel"
-    coverImage: "./hangingtowel_linen/gallery.jpg"
-  - id: "4"
-    name: "Potholder"
+    displayName: "Marketbag - Small"
+    description: >
+      The small marketbag is great to use for a lunch bag, or to carry your phone and wallet.<br><br>
+      Machine wash cold on gentle and tumble dry low or lay flat to dry.<br>
+      Bags are available in a variety of colors and combinations.  I also offer custom dyed options.<br><br>
+      Bag shown below holding 6 apples and 2 bell peppers.
+  - slug: "KitchenTowelLinen"
+    coverImage: "./kitchentowel_linen/gallery.jpg"
+    displayName: "Kitchen Towel - Linen"
+    description: >
+      This kitchen towel adds a splash of color to your kitchen.<br>
+      This lightweight towel is made from 100% cotton and is machine washable in warm water, tumble dry low.<br>
+      The hanger is made from 100% cotton yarn that holds its shape through multiple washes.
+  - slug: "Potholder"
     coverImage: "./potholder/gallery.jpg"
-  - id: "5"
-    name: "Scrubbie"
+    displayName: "Potholder"
+    description: >
+      This potholder uses a double thick thermal stitch and 100% cotton yarn to create a heat resistant barrier.<br>
+      Potholder measures 7 in x 7 in.<br><br>
+      Machine wash cold and tumble dry low or hang to dry.<br><br>
+      Potholders are available in a variety of colors and combinations.  I also offer custom dyed options.
+  - slug: "Scrubbie"
     coverImage: "./scrubbie/gallery.jpg"
-  - id: "6"
-    name: "Spinner"
+    displayName: "Scrubbie"
+    description: >
+      The scrubbies combine 100% cotton yarn with a textured 'scrubbie' yarn to give extra scrubbing power.<br>
+      Scrubbie has diameter of 5 in and has a hanging loop to help it dry.<br><br>
+      Machine wash warm and tumble dry low or hang to dry.<br><br>
+      Scrubbies are available in a variety of colors and color combinations.<br>
+      Scrubbies are also available in a single layer version, or a double layer version which combines a scrubbie with a cotton yarn layer which doubles as a washcloth.
+  - slug: "Spinner"
     coverImage: "./spinner/gallery.jpg"
+    displayName: "Wind Spinner"
+    description: >
+      Wind spinner adds a splash of color to your garden or campsite.<br><br>
+      Made from 100% cotton yarn, it can be handwashed in cold water to remove dirt.  Hang to dry, reshape as needed.<br><br>
+      Spinners are custom made to order, with requested colors and length.
+

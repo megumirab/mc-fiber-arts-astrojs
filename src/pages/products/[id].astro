@@ -1,0 +1,84 @@
+---
+import { getCollection } from "astro:content";
+import Layout from '../../layouts/Layout.astro';
+import {Image} from 'astro:assets';
+
+export async function getStaticPaths() {
+  const products = await getCollection("products");
+
+  const paths = Object.values(products).map((product) => {
+    return {
+      params: {
+        id: product.id,
+      },
+      props: {
+        product,
+      },
+    };
+  });
+
+  return paths;
+}
+
+const { product } = Astro.props;
+---
+<Layout>
+  <div>
+    <h1>
+      {product.data.displayName}
+    </h1>
+    <div class="container">
+      <Image 
+        src={product.data.coverImage}
+        alt={product.data.displayName}
+        format="avif"
+        width={250}
+        class="grid-child"
+      />
+      <h3 class="text">
+        <Fragment set:html={product.data.description}/>      
+      </h3>
+    </div>
+    <p>
+      <a class="button" href="/mc-fiber-arts-astrojs">Go back</a>
+    </p>
+  </div>
+  
+  <style>
+    .a {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      padding: 10px 12px;
+      color: #111827;
+      text-decoration: none;
+      transition: color 0.2s;
+	  }
+
+    .button {
+      color: white;
+      background: linear-gradient(83.21deg, #6e1896 0%, #0a4a21 100%);
+      box-shadow:
+        inset 0 0 0 1px rgba(255, 255, 255, 0.12),
+        inset 0 -2px 0 rgba(0, 0, 0, 0.24);
+      border-radius: 10px;
+      height: 40px;
+    }
+
+    .container {
+      display: flex;
+      align-items: center; 
+    }
+
+    .container img {
+      margin-right: 20px; 
+      max-width: 100%; 
+		  height: auto;
+    }
+
+    .container .text {
+      text-align: left; 
+
+    }
+  </style>
+</Layout>
