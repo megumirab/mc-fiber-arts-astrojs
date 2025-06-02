@@ -39,6 +39,29 @@ const { product } = Astro.props;
         <Fragment set:html={product.data.description}/>      
       </h3>
     </div>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="grid-container">
+          {
+            product.data.gallery?.map((item) => (
+              <div class="image-container">
+                <Image 
+                  src={item.image}
+                  alt={item.name}
+                  format="avif"
+                  width={400}
+                  class="grid-child"
+                />
+                <div>
+                  <strong>
+                    <Fragment set:html={item.description}/>
+                  </strong>
+                </div>
+              </div>
+            ))
+          }
+      </div>
+    </section>
     <p>
       <a class="button" href="/mc-fiber-arts-astrojs">Go back</a>
     </p>
@@ -78,7 +101,22 @@ const { product } = Astro.props;
 
     .container .text {
       text-align: left; 
+    }
 
+    .grid-container {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+    }
+
+    .image-container {
+              text-align: center; 
+              margin: 20px;
+    }
+
+    .image-container img {
+      max-width: 100%; 
+      height: auto;
     }
   </style>
 </Layout>

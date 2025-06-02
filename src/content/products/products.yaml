@@ -6,7 +6,48 @@
       Use it for a day on the beach, to carry your books, anything you need.<br><br>
       Machine wash cold on gentle and tumble dry low or lay flat to dry.<br>
       Bags are available in a variety of colors and combinations.  I also offer custom dyed options.<br><br>
-      Bag shown below holding 6 apples, 2 bell peppers, 6 cans of soup, and 8 skeins of crochet thread.
+      Straps measure 36 in long.  Bag measures 12 in deep and 20 in wide when laying flat.  Mesh pattern allows for some stretch when it comes to carrying capacity.
+    gallery:
+      - name: marketbag_large_capacity
+        image: "./marketbag_large/capacity.jpg"
+        description: >
+          Bag shown holding 6 apples, 2 bell peppers, 8 cans of soup,<br>
+          and 8 skeins of crochet thread.
+      - name: marketbag_large_single_custom1
+        image: "./marketbag_large/single-custom1.jpg"
+        description: Bag made with custom dyed yarn.
+      - name: marketbag_large_ahoyOmbre
+        image: "./marketbag_large/single-ahoyOmbre.jpg"
+      - name: marketbag_large_autumnLeavesOmbre
+        image: "./marketbag_large/single-autumnLeavesOmbre.jpg"
+      - name: marketbag_large_beachBallBlue
+        image: "./marketbag_large/single-beachBallBlue.jpg"
+      - name: marketbag_large_chocolateOmbre
+        image: "./marketbag_large/single-chocolateOmbre.jpg"
+      - name: marketbag_large_freshlyPressed
+        image: "./marketbag_large/single-freshlyPressed.jpg"
+      - name: marketbag_large_gardenParty
+        image: "./marketbag_large/single-gardenParty.jpg"
+      - name: marketbag_large_hippi
+        image: "./marketbag_large/single-hippi.jpg"
+      - name: marketbag_large_jewels
+        image: "./marketbag_large/single-jewels.jpg"
+      - name: marketbag_large_keyLimePie
+        image: "./marketbag_large/single-keyLimePie.jpg"
+      - name: marketbag_large_overTheRainbow
+        image: "./marketbag_large/single-overTheRainbow.jpg"
+      - name: marketbag_large_pinkCamo
+        image: "./marketbag_large/single-pinkCamo.jpg"
+      - name: marketbag_large_purpleHaze
+        image: "./marketbag_large/single-purpleHaze.jpg"
+      - name: marketbag_large_sage
+        image: "./marketbag_large/single-sage.jpg"
+      - name: marketbag_large_strawberry
+        image: "./marketbag_large/single-strawberry.jpg"
+      - name: marketbag_large_summerOmbre
+        image: "./marketbag_large/single-summerOmbre.jpg"
+      - name: marketbag_large_sunkissed
+        image: "./marketbag_large/single-sunkissed.jpg"
   - slug: "MarketbagSmall"
     coverImage: "./marketbag_small/gallery.jpg"
     displayName: "Marketbag - Small"
@@ -14,14 +55,59 @@
       The small marketbag is great to use for a lunch bag, or to carry your phone and wallet.<br><br>
       Machine wash cold on gentle and tumble dry low or lay flat to dry.<br>
       Bags are available in a variety of colors and combinations.  I also offer custom dyed options.<br><br>
-      Bag shown below holding 6 apples and 2 bell peppers.
+      Bag shown below holding 6 apples and 2 bell peppers.<br>
+      Straps measures 18 in long.  Bag measures 8 in deep and 12 in wide when laying flat.  Mesh pattern allows for some stretch when it comes to carrying capacity.
+    gallery:
+      - name: marketbag_small_capacity
+        image: "./marketbag_small/capacity.jpg"
+        description: Bag shown holding 6 apples, 2 bell peppers
+      - name: marketbag_small_single_custom1
+        image: "./marketbag_small/single-custom1.jpg"
+        description: Bag made with custom dyed yarn.
+      - name: marketbag_small_single_custom2
+        image: "./marketbag_small/single-custom2.jpg"
+        description: Bag made with custom dyed yarn.
+      - name: marketbag_small_ahoyOmbre
+        image: "./marketbag_small/single-ahoyOmbre.jpg"
+      - name: marketbag_small_autumnLeavesOmbre
+        image: "./marketbag_small/single-autumnLeavesOmbre.jpg"
+      - name: marketbag_small_beachBallBlue
+        image: "./marketbag_small/single-beachBallBlue.jpg"
+      - name: marketbag_small_chocolateOmbre
+        image: "./marketbag_small/single-chocolateOmbre.jpg"
+      - name: marketbag_small_gardenParty
+        image: "./marketbag_small/single-gardenParty.jpg"
+      - name: marketbag_small_hippi
+        image: "./marketbag_small/single-hippi.jpg"
+      - name: marketbag_small_keyLimePie
+        image: "./marketbag_small/single-keyLimePie.jpg"
+      - name: marketbag_small_overTheRainbow
+        image: "./marketbag_small/single-overTheRainbow.jpg"
+      - name: marketbag_small_psychadelic
+        image: "./marketbag_small/single-psychadelic.jpg"
+      - name: marketbag_small_purpleHaze
+        image: "./marketbag_small/single-purpleHaze.jpg"
+      - name: marketbag_small_summerOmbre
+        image: "./marketbag_small/single-summerOmbre.jpg"
+      - name: marketbag_small_sunkissed
+        image: "./marketbag_small/single-sunkissed.jpg"
   - slug: "KitchenTowelLinen"
     coverImage: "./kitchentowel_linen/gallery.jpg"
     displayName: "Kitchen Towel - Linen"
     description: >
       This kitchen towel adds a splash of color to your kitchen.<br>
       This lightweight towel is made from 100% cotton and is machine washable in warm water, tumble dry low.<br>
-      The hanger is made from 100% cotton yarn that holds its shape through multiple washes.
+      The hanger is made from 100% cotton yarn that holds its shape through multiple washes.<br>
+      Towel measures 16 in x 26 in and is folded in thirds and in half to provide multiple sides for drying hands.
+    gallery:
+      - name: kitchentowel_linen_model
+        image: "./kitchentowel_linen/model.jpg"
+      - name: kitchentowel_linen_greenOnBlue
+        image: "./kitchentowel_linen/single-greenOnBlue.jpg"
+      - name: kitchentowel_linen_orangeOnRed
+        image: "./kitchentowel_linen/single-orangeOnRed.jpg"
+      - name: kitchentowel_linen_redOnOrange
+        image: "./kitchentowel_linen/single-redOnOrange.jpg"
   - slug: "Potholder"
     coverImage: "./potholder/gallery.jpg"
     displayName: "Potholder"
@@ -30,6 +116,41 @@
       Potholder measures 7 in x 7 in.<br><br>
       Machine wash cold and tumble dry low or hang to dry.<br><br>
       Potholders are available in a variety of colors and combinations.  I also offer custom dyed options.
+    gallery: 
+      - name: potholder_custom1
+        image: "./potholder/single-custom1.jpg"
+        description: Potholder made with custom dyed yarn.
+      - name: potholder_custom2
+        image: "./potholder/single-custom2.jpg"
+        description: Potholder made with custom color combinations and a striped motif.
+      - name: potholder_hippi
+        image: "./potholder/single_hippi.jpg"
+      - name: potholder_jewel
+        image: "./potholder/single_jewel.jpg"
+      - name: potholder_moss
+        image: "./potholder/single_moss.jpg"
+      - name: potholder_beachBallBlue
+        image: "./potholder/single-beachBallBlue.jpg"
+      - name: potholder_chocolateOmbre
+        image: "./potholder/single-chocolateOmbre.jpg"
+      - name: potholder_denim
+        image: "./potholder/single-denim.jpg"
+      - name: potholder_fruitPunch
+        image: "./potholder/single-fruitPunch.jpg"
+      - name: potholder_nautical
+        image: "./potholder/single-nautical.jpg"
+      - name: potholder_overTheRainbow
+        image: "./potholder/single-overTheRainbow.jpg"
+      - name: potholder_pinkCamo
+        image: "./potholder/single-pinkCamo.jpg"
+      - name: potholder_strawberry
+        image: "./potholder/single-strawberry.jpg"
+      - name: potholder_sunkissed
+        image: "./potholder/single-sunkissed.jpg"
+      - name: potholder_swimmingPool  
+        image: "./potholder/single-swimmingPool.jpg"
+      - name: potholder_woodland
+        image: "./potholder/single-woodland.jpg"
   - slug: "Scrubbie"
     coverImage: "./scrubbie/gallery.jpg"
     displayName: "Scrubbie"
@@ -39,6 +160,13 @@
       Machine wash warm and tumble dry low or hang to dry.<br><br>
       Scrubbies are available in a variety of colors and color combinations.<br>
       Scrubbies are also available in a single layer version, or a double layer version which combines a scrubbie with a cotton yarn layer which doubles as a washcloth.
+    gallery:
+      - name: scrubbie_singleLayer
+        image: "./scrubbie/singlesided_model.jpg"
+        description: Scrubbie has a single layer of scrubbie + cotton yarn 
+      - name: scrubbie_doubleLayer
+        image: "./scrubbie/doublesided_model.jpg"
+        description: Scrubbie has two sides, a cotton side and a textured side
   - slug: "Spinner"
     coverImage: "./spinner/gallery.jpg"
     displayName: "Wind Spinner"
@@ -46,4 +174,3 @@
       Wind spinner adds a splash of color to your garden or campsite.<br><br>
       Made from 100% cotton yarn, it can be handwashed in cold water to remove dirt.  Hang to dry, reshape as needed.<br><br>
       Spinners are custom made to order, with requested colors and length.
-

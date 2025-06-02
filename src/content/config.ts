@@ -7,7 +7,12 @@ const products = defineCollection({
     z.object({
       coverImage: image(),
       displayName: z.string(),
-      description: z.string().optional()
+      description: z.string().optional(),
+      gallery: z.array(z.object({
+        name: z.string(),
+        image: image(),
+        description: z.string().optional()
+      })).optional()
     })
 });
 
