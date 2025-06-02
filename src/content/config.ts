@@ -5,8 +5,14 @@ const products = defineCollection({
   loader: file("src/content/products/products.yaml"),
   schema: ({image}) => 
     z.object({
-      name: z.string(),
-      coverImage: image()
+      coverImage: image(),
+      displayName: z.string(),
+      description: z.string().optional(),
+      gallery: z.array(z.object({
+        name: z.string(),
+        image: image(),
+        description: z.string().optional()
+      })).optional()
     })
 });
 

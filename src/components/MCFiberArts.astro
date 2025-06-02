@@ -9,7 +9,6 @@ const products = await getCollection('products');
 ---
 
 <div id="container">
-	<img id="background" src={background.src} alt="" fetchpriority="high" />
 	<main>
 		<section id="header">
 			<div class="flex-container">
@@ -24,15 +23,17 @@ const products = await getCollection('products');
 					{
 						products.map((item) => (
 							<div class="image-container">
+								<a href={`/mc-fiber-arts-astrojs/products/${item.id}`}>
 								<Image 
 									src={item.data.coverImage}
-									alt={item.data.name}
+									alt={item.data.displayName}
 									format="avif"
 									width={250}
 									class="grid-child"
 								/>
+								</a>
 								<div class="text-center">
-									<strong class="font-normal">{item.data.name}</strong>
+									<strong class="font-normal">{item.data.displayName}</strong>
 								</div>
 							</div>
 						))
@@ -48,20 +49,6 @@ const products = await getCollection('products');
 </div>
 
 <style>
-	#background {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -1;
-		filter: 
-			blur(50px)
-			brightness(200%)
-			saturate(75%);
-		
-	}
-
 	#container {
 		font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 		height: 100%;
@@ -119,11 +106,11 @@ const products = await getCollection('products');
 	}
 
 	.image-container {
-            text-align: center; /* Centers the image and text */
+            text-align: center; 
             margin: 20px;
 	}
 	.image-container img {
-		max-width: 100%; /* Ensures the image is responsive */
+		max-width: 100%; 
 		height: auto;
 	}
 </style>
