@@ -23,7 +23,7 @@ const products = await getCollection('products');
 					{
 						products.map((item) => (
 							<div class="image-container">
-								<a href={`/mc-fiber-arts-astrojs/products/${item.id}`}>
+								<a href={`/products/${item.id}`}>
 								<Image 
 									src={item.data.coverImage}
 									alt={item.data.displayName}
